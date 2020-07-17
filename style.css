@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Varta:wght@300&display=swap');
+
+html {
+    background: #FBF6F3;}
+
+.nav, p,ul {
+    font-family: 'Varta', sans-serif;
+    text-align: left;
+    color: #3B3734;}
+
+h1, h2, p, ul, li {
+    text-align: center;}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    color: #3B3734;}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: #3B3734;}
