@@ -3,20 +3,48 @@
 html {
     background: #FBF6F3;}
 
-.nav, p,ul {
+p,ul {
     font-family: 'Varta', sans-serif;
     text-align: left;
     color: #3B3734;}
 
-h1, h2, p, ul, li {
+.nav {
+    font-family: 'Varta', sans-serif;
+    font-size: 18px;
+    text-align: left;
+    background-color: #BAB0A4;
+    position: fixed;
+    Top:0px;
+    width: 1440px;}
+
+.nav a { 
+    color: #FBF6F3;
+    text-decoration: none;}
+
+h2, p, ul, li {
     text-align: center;}
+
+.t1 {
+    text-align: center}
+
+.t2 {
+    text-align: center}
 
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 100px;
+    font-size: 150px;
     color: #3B3734;}
 
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     color: #3B3734;}
+
+.travel {
+    text-align: center;
+    font-size: 50px;
+    color: #D9CAB7;
+    background-image: url(images/Travel1.PNG);
+    height: 1180px;
+    background-position: center;
+    background-size: cover;}
