@@ -3,37 +3,59 @@
 html {
     background: #FBF6F3;}
 
-p,ul {
+p,ul, .nav {
     font-family: 'Varta', sans-serif;
     text-align: left;
     color: #3B3734;}
 
-.nav {
-    font-family: 'Varta', sans-serif;
-    font-size: 18px;
-    text-align: left;
-    background-color: #BAB0A4;
-    position: fixed;
-    Top:0px;
-    width: 1440px;}
+body {margin: 0;}
 
-.nav a { 
+header {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height;80px
+    display:flex;
+    align-items: center;
+    box-shadow: 0px 2px 25px 0 black;
+    justify-content: flex-start;
+    padding: 5px;}
+
+header *{
+     display: inline;}
+
+header li {
+    margin: 5vw;}
+
+header li a { 
     color: #FBF6F3;
+    font-size: 18px;
     text-decoration: none;}
 
 h2, p, ul, li {
     text-align: center;}
 
-.t1 {
-    text-align: center}
-
-.t2 {
-    text-align: center}
-
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 150px;
-    color: #3B3734;}
+    font-size: 10em;
+    color: #3B3734; 
+    padding-top: 80px;
+    margin-bottom:0px; 
+    margin-right: 100px;
+    margin-top: 0px;
+    text-shadow: 4px 0px 5px #FBF6F3;
+    text-align: end;}
+
+
+.home {
+    background-image: url(images/bali-beach.jpg);
+    margin-top: 0px;
+    height: 100vw;
+    width: 3000vm;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
 
 h2 {
     font-family: 'Playfair Display', serif;
@@ -42,6 +64,7 @@ h2 {
 
 .travel {
     text-align: center;
+    padding-top: 500px;
     font-size: 50px;
     color: #D9CAB7;
     background-image: url(images/Travel1.PNG);
